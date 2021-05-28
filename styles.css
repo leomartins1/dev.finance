@@ -11,16 +11,16 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 93.75%;
 }
 
 body {
   background: #f0f2f5;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-.sr-only{
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -38,14 +38,14 @@ body {
 }
 
 h2 {
-  margin-top:  3.2rem;
+  margin-top: 3.2rem;
   margin-bottom: 0.8rem;
   color: var(--darkBlue);
   font-weight: normal;
 }
 
 a {
-  color:  var(--green);
+  color: var(--green);
   text-decoration: none;
 }
 
@@ -64,13 +64,13 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background: var(--light-green);
 }
 
 .button.new {
   display: inline-block;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .button.cancel {
@@ -89,7 +89,7 @@ button:hover{
 }
 
 header {
-  background-color: #2d4A22;
+  background-color: #2d4a22;
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -103,7 +103,7 @@ header {
   margin-top: -8rem;
 }
 
-#balance h2{
+#balance h2 {
   color: white;
   margin-top: 0;
 }
@@ -124,11 +124,11 @@ header {
 .card p {
   font-size: 2rem;
   line-height: 3rem;
-  margin-top:  1rem;
+  margin-top: 1rem;
 }
 
-.card.total{
-  background: #49AA26;
+.card.total {
+  background: #49aa26;
   color: whitesmoke;
 }
 
@@ -149,20 +149,19 @@ table tbody tr td:first-child {
   border-radius: 0.25rem 0 0 0.25rem;
 }
 
-table thead th{
+table thead th {
   background: white;
   font-weight: normal;
   padding: 1rem 2rem;
   text-align: left;
 }
 
-table tbody tr{
+table tbody tr {
   opacity: 0.7;
 }
 
 table tbody tr:hover {
   opacity: 1;
-
 }
 
 table tbody td {
@@ -178,7 +177,7 @@ td.income {
   color: #12a454;
 }
 
-td.expense{
+td.expense {
   color: #e92929;
 }
 
@@ -196,19 +195,19 @@ td.expense{
   z-index: 999;
 }
 
-.modal-overlay.active{
+.modal-overlay.active {
   opacity: 1;
   visibility: visible;
 }
 
 .modal {
-  background: #F0F2f5;
+  background: #f0f2f5;
   padding: 2.4rem;
   position: relative;
   z-index: 1;
 }
 
-#form{
+#form {
   max-width: 500px;
 }
 
@@ -242,7 +241,7 @@ input {
   width: 48%;
 }
 
-footer{
+footer {
   text-align: center;
   padding: 4rem 0 2rem;
   color: var(--darkBlue);
@@ -253,7 +252,7 @@ footer{
   html {
     font-size: 87.5%;
   }
-  #balance{
+  #balance {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
